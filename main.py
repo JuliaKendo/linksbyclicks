@@ -39,7 +39,7 @@ def is_bitlink(token, link):
 
 
 if __name__=="__main__":
-  #link = input('Введите исходную ссылку: ')
+  
   parser = argparse.ArgumentParser()
   parser.add_argument('name', help='Исходная ссылка')
   args = parser.parse_args()
